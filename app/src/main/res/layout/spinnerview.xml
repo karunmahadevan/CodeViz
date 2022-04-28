@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/searchInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/margin20"
+        android:textSize="@dimen/text30"
+        android:textColor="@color/white"
+        android:layout_above="@id/searchGraph"/>

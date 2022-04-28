@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Code Viz</string>
+    <string name="sort">Sort</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">\u2302</string>
+    <string name="info">\uD83D</string>
+    <string name="sorthelp1">Use the slider at the bottom of the screen to adjust how many values you want to sort.</string>
+    <string name="sorthelp2">Once you select a size, tap the pop up menu to choose which sorting method you want to use.</string>
+    <string name="sorthelp3">The title at the top of the page, as well as the menu selection will confirm your choice</string>
+    <string name="sorthelp4">Once selected, click SORT CHART to see the method in action!</string>
+    <string name="sorthelp5">Click the button below to return to the Sorting page!</string>
+    <string name="searchhelp1">Use the slider at the bottom of the screen to adjust which value (A.K.A index) you want to search for</string>
+    <string name="searchhelp2">Once you select a value to find, tap the pop up menu to
+        choose which searching method you want to use.</string>
+    <string name="searchhelp3">The title at the top of the page, as well as the menu selection will confirm your choice.</string>
+    <string name="searchhelp4">Once selected, click SEARCH THROUGH GRID to see the method in action!</string>
+    <string name="searchhelp5">Click the button below to return to the Searching page!</string>
+    <string name="recurhelp1">Use the slider at the bottom of the page to select how many queens (and how big the board) will be.</string>
+    <string name="recurhelp2">When the board size and \'Number Of Queens\' label is updated, click \'Solve N-Queens\' to see recursion in action!</string>
+    <string name="recurhelp3">Click the button below to return to the Recursion page!</string>
+    <string name="convert_to_map">Convert to Map</string>
+    <string name="search_for_path">Search For Path</string>
+    <string name="draw_path">Draw Fastest Path</string>
+    <string name="reset_path">Reset</string>
+    <string name="path1">The green square is the starting point and the red square is the goal destination. Draw in the blue square to mark places that will be \'blocked\', i.e. a path cannot go through the space that is drawn</string>
+    <string name="pathhelp1">Click \'Convert to Map\' to take your drawing and transform it into a 25x25 grid. </string>
+    <string name="pathhelp2">Click \'Search For Path\' to start the breadth first search. </string>
+    <string name="path2">The white dots are \'legal\', and the black ones are the places that you drew, and are inaccessible.</string>
+    <string name="pathhelp3">When the search is done, click \'Draw Fastest Path\' to see the quickest path! </string>
+    <string name="path3">As the search progresses you will see visited spaces (white),
+        spaces that are \'destinations\' which can\'t be explored further (purple), and
+        the spaces being currently explored (red).</string>
+    <string name="path4">Then click reset to do it again!</string>
+    <string name="path5">Click the button below to proceed to go to the fastest path page!</string>
+    <string name="bubbleSortInfo">Bubble Sort works by examining each set of adjacent
+        elements in the string, from left to right, switching their positions if they
+        are out of order. It has a O(n) efficiency. </string>
+    <string name="selectionSortInfo">Selection Sort works by taking the smallest
+        element in an unsorted array and bringing it to the front, then growing
+        the unsorted array length by 1 and repeating. It has a
+        O(n-squared)
+        efficiency.</string>
+    <string name="insertionSortInfo">Insertion Sort works by iterating through each
+        index, and removes one element from the input data, finds the location it
+        belongs within the sorted list, and inserts it there. It has a O(n-squared)
+        efficiency.</string>
+    <string name="quickSortInfo">Quick sort works by dividing an array into two
+        based on a \'pivot\' point. All elements less than the pivot are put to a
+        lower index, and same for greater. The process recursively repeats until
+        fully sorted. It has a O(n * log(n)) efficiency</string>
+    <string name="mergeSortInfo">Merge sort works by repeatedly splitting a list into
+        sublists until each sublist is a single element. Then, it \'merges\' all
+        single element sublists into a sortedlist. It has a O(n * log(n))
+        efficiency</string>
+    <string name="linearSearchInfo">Linear Search works by starting at the beginning of
+        the data set, and each item of data is examined until a match is made.Once the
+        item is found, the search ends. It has a O(n) efficiency.</string>
+    <string name="optimLinearInfo">Optimized Linear Search works by starting at
+        both the beginning AND the end of the data set. It increments it\'s search
+        forwards and backwards until the value is found. It has a O(n) efficiency.</string>
+    <string name="binarySearchInfo">Binary Search works by repeatedly dividing in half
+        the portion of the list that could contain the item, until you\'ve narrowed
+        down the possible locations to just one. It has a O(log(n)) efficiency.</string>
+    <string name="ternarySearchInfo">Ternary Search works by repeatedly dividing into
+        third\'s of the list that could contain the item, until you\'ve narrowed
+        down the possible locations to just one. It has a O(log(n)) efficiency.</string>
+    <string name="jumpSearchInfo">Jump Search works by calculating x, the square
+        root of the list size, and repeatedly examining x-sized chunks of the
+        list until the target is within that range. Then, it performs a linear
+        search. It has a O(sqrt(n)) efficiency.</string>
+    <string name="expoSearchInfo">Exponential Search works by examining
+        exponentially larger ranges of the data set until the target value is
+        within the range. Then, it performs a binary search within that range. It
+    has a O(log(n)) efficiency.</string>
+    <string name="sortingInfo">The Sorting page visualizes 5 major sorting
+        algorithms: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, and Merge
+        Sort. You can select a size of 50-200 random values, and watch sorting happen!</string>
+    <string name="searchInfo">The Searching page visualizes 6 major searching algorithms: Linear Search, Optimized Linear Search, Binary Search, Ternary Search, Jump Search, and Exponential Search. You can select which index to search for, then watch the searching happen in real time!</string>
+    <string name="recurInfo">This page visualizes recursion using the famous N-Queens problem as a vehicle. Choose a board size and watch the recursion happen!</string>
+    <string name="search_for">SEARCH FOR: 0</string>
+    <string name="search_through_data">Search Through Data</string>
+    <string name="picture">picture</string>
+    <string name="go_to_fastest_path">Go To Fastest Path</string>
+    <string name="go_to_recursion">Go To Recursion</string>
+    <string name="number_of_queens">NUMBER OF QUEENS</string>
+    <string name="solve_n_queens">SOLVE N-QUEENS</string>
+    <string name="go_to_searching">Go To Searching</string>
+    <string name="sorting_size">SORTING SIZE</string>
+    <string name="sort_chart">Sort Chart</string>
+    <string name="go_to_sorting">Go To Sorting</string>
+    <string name="convert_to_map_text">Draw within the blue to mark points which
+        areas are \'blocked\'. The program will find the fastest path from the
+        green square to the red square. Draw slowly to ensure all block points
+        are registered!</string>
+    <string name="search_for_path_text">Click the button to watch the search
+        happen in real time! </string>
+    <string name="draw_fastest_path_text">The red points are places currently being
+        \'explored\', the white are already visited points, and the purple ones
+        are places that cannot be explored further</string>
+    <string name="reset_fastest_text">The green represents the fastest path
+        from the top-left to the bottom-right! Click reset to restart the
+        experience!</string>
+    <string name="bfs">The Fastest Path page visualizes Breadth First Search - a graph searching algorithm that explores nodes sequentially, rippling out from the starting point to the end.</string>
+    <string-array name="sortValues">
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+    </string-array>
+    <string-array name="recurSize">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>

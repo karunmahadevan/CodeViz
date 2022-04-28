@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".MainActivity"
+        android:background="@drawable/screenbg"
+        android:id="@+id/homeLayout">
+
+    <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trans_bg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/table"
+            app:layout_constraintVertical_chainStyle="packed"
+            android:contentDescription="Logo"
+            />
+
+        <TableLayout
+                android:id="@+id/table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/logo"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10">
+
+                <RelativeLayout
+                        android:id="@+id/sortFragLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:layout_margin="@dimen/margin10">
+
+                    <TextView
+                            android:id="@+id/sortText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/hello_blank_fragment"/>
+
+                    <ImageView
+                            android:contentDescription="sort"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/sortfinaltrans"
+                            android:layout_below="@id/sortText"
+                            android:padding="@dimen/margin10"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/graphFragLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:layout_margin="@dimen/margin10">
+
+                    <TextView
+                            android:id="@+id/graphText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/hello_blank_fragment"/>
+
+                    <ImageView
+                            android:contentDescription="graph"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/colorpath"
+                            android:layout_below="@id/graphText"/>
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10">
+
+                <RelativeLayout
+                        android:id="@+id/searchFragLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:layout_margin="@dimen/margin10">
+
+                    <TextView
+                            android:id="@+id/searchText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/hello_blank_fragment"/>
+
+                    <ImageView
+                            android:contentDescription="search"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/colorsort"
+                            android:rotation="270"
+                            android:layout_below="@id/searchText"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:id="@+id/recurFragLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:layout_margin="@dimen/margin10">
+
+                    <TextView
+                            android:id="@+id/recurText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/hello_blank_fragment"/>
+
+                    <ImageView
+                            android:id="@+id/testGif"
+                            android:contentDescription="@string/picture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/finalrecurbg"
+                            android:layout_below="@id/recurText"/>
+
+                </RelativeLayout>
+
+            </TableRow>
+        </TableLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screenbg"
+        tools:context=".search.SearchHelp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin10"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/searchHelpTitle"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_margin="@dimen/margin10"
+                android:layout_height="wrap_content"
+                android:text="@string/hello_blank_fragment"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+            <TextView
+                    android:id="@+id/genInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/searchInfo"
+                    android:layout_alignParentTop="true" />
+
+
+            <ImageView
+                    android:id="@+id/searchim1"
+                    android:src="@drawable/searchsize1"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/genInfo"
+                    android:contentDescription="@string/picture"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/searchtv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/searchhelp1"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/searchim2"
+                    android:src="@drawable/searchsize2"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/searchtv1"
+                    android:contentDescription="@string/picture"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/searchtv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/searchhelp2"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/searchim3"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/searchmeth1"
+                    android:layout_below="@id/searchtv2"
+                    android:contentDescription="@string/picture"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/searchtv3"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="@string/searchhelp3"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/searchim4"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/searchmeth2"
+                    android:layout_below="@id/searchtv3"
+                    android:contentDescription="@string/picture"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/searchtv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/margin10"
+                    android:textSize="@dimen/text30"
+                    android:textColor="@color/white"
+                    android:text="@string/searchhelp4"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/searchim5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:src="@drawable/searchchart1"
+                    android:layout_below="@id/searchtv4"
+                    android:contentDescription="@string/picture"/>
+        </RelativeLayout>
+
+
+
+
+            <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin20"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/searchHelpHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/home"
+                        android:textSize="@dimen/text30"
+                        android:textColor="@color/bgGradEnd"
+                        style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                        android:id="@+id/returnToSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text30"
+                        android:textColor="@color/bgGradEnd"
+                        android:text="@string/go_to_searching"
+                        style="?android:attr/buttonBarButtonStyle" />
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

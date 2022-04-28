@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screenbg"
+        tools:context=".recursion.RecurHelp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin10"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/recurHelpTitle"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_margin="@dimen/margin10"
+                android:layout_height="wrap_content"
+                android:text="@string/hello_blank_fragment"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/genInfoRecur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/recurInfo"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/recurim1"
+                    android:src="@drawable/recursize1"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/genInfoRecur"
+                    android:contentDescription="@string/picture"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/recurtv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/recurhelp1"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/recurim2"
+                    android:src="@drawable/recursize2"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/recurtv1"
+                    android:contentDescription="@string/picture"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/recurtv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/recurhelp2"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/recurim3"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recursolve"
+                    android:layout_below="@id/recurtv2"
+                    android:contentDescription="@string/picture"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="@dimen/margin20"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/recurHelpHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home"
+                    android:textSize="@dimen/text30"
+                    android:textColor="@color/bgGradEnd"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/returnToRecur"
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:textColor="@color/bgGradEnd"
+                    android:layout_height="wrap_content"
+                    android:text="@string/go_to_recursion"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

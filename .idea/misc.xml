@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/buttonbg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/buttonripple.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/chess_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/chess_bg_a.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/chess_bg_b.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/empty_bubble.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/finish.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/finished_path.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/gradient_animation.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/gradient_center.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/gradient_end.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/gradient_start.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/invalid_bubble.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/screenbg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/start.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/testbg.xml" value="0.1605" />
+        <entry key="app/src/main/res/drawable/testbg_1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/testbg_2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/testbg_3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/testbg_4.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/valid_bubble_foreground.xml" value="0.1605" />
+        <entry key="app/src/main/res/font/fugaz.xml" value="0.2203125" />
+        <entry key="app/src/main/res/font/fugaz_one.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_data_structures.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_draw_graph_canvas.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_graph_traverse.xml" value="0.1802536231884058" />
+        <entry key="app/src/main/res/layout/fragment_path_help.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_recur_help.xml" value="0.24592391304347827" />
+        <entry key="app/src/main/res/layout/fragment_recursion.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.23152939507543377" />
+        <entry key="app/src/main/res/layout/fragment_search_help.xml" value="0.10688956433637285" />
+        <entry key="app/src/main/res/layout/fragment_sort.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_sort_help.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/node.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/spinnerview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/spinnerviewb.xml" value="0.23020833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="openjdk-15" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

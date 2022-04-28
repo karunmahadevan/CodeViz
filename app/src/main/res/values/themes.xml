@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MPChart" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/bgGradStart</item>
+        <item name="colorPrimaryVariant">@color/bgGradCenter</item>
+        <item name="colorOnPrimary">@color/bgGradEnd</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/bgGradStart</item>
+        <item name="colorSecondaryVariant">@color/bgGradCenter</item>
+        <item name="colorOnSecondary">@color/bgGradEnd</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">
+            ?attr/colorPrimaryVariant
+        </item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyMaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Add attributes here -->
+        <item name="colorPrimary">@color/bgGradEnd</item>
+    </style>
+</resources>

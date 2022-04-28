@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".search.Search"
+        android:id="@+id/drawDataCanvasLayout">
+
+    <Button
+            android:id="@+id/homeButtonDrawData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textSize="@dimen/text30"
+            android:textColor="@color/bgGradEnd"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"/>
+
+    <Button
+            android:id="@+id/searchHelpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textSize="@dimen/text30"
+            android:textColor="@color/bgGradEnd"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="RelativeOverlap" />
+
+    <TextView
+            android:id="@+id/titleTextSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:id="@+id/searchInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin10"
+            android:textSize="@dimen/text20"
+            android:textColor="@color/white"
+            android:layout_above="@id/searchGraph"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/searchGraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin20"
+            android:layout_alignBottom="@id/linearview"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+                android:id="@+id/linearview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/searchSlider">
+
+            <TextView
+                    android:id="@+id/searchText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/search_for"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:padding="@dimen/margin20"
+                    android:background="@drawable/buttonripple"
+                    android:textSize="@dimen/text20"/>
+
+            <Spinner
+                    android:id="@+id/searchMethods"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/red"/>
+
+            <Button
+                    android:id="@+id/sortData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/margin20"
+                    android:textColor="@color/black"
+                    android:background="@drawable/buttonripple"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text20"
+                    android:text="@string/search_through_data" />
+
+        </LinearLayout>
+
+        <com.google.android.material.slider.Slider
+                android:id="@+id/searchSlider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/MyMaterialTheme"
+                android:background="@drawable/border"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fastpath.FPath"
+        android:id="@+id/drawGraphCanvasLayout">
+
+    <Button
+            android:id="@+id/homeButtonDrawGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textSize="@dimen/text30"
+            android:textColor="@color/bgGradEnd"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"/>
+
+
+    <TextView
+            android:id="@+id/titleTextPath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+
+    <Button
+            android:id="@+id/fastPathHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/info"
+            android:textSize="@dimen/text30"
+            android:textColor="@color/bgGradEnd"
+            tools:ignore="RelativeOverlap" />
+
+    <LinearLayout
+            android:id="@+id/pathUtils"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin10"
+            android:layout_above="@id/GraphCanvas">
+
+        <TextView
+                android:id="@+id/fastestPathInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="@dimen/margin10"
+                android:textSize="@dimen/text20"
+                android:textColor="@color/white"
+                />
+
+
+        <Button
+                android:id="@+id/DrawGraphCanvasButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@drawable/buttonripple"
+                android:textStyle="bold"
+                android:padding="@dimen/margin10"
+                android:textSize="@dimen/text30"
+                android:text="@string/convert_to_map"
+                />
+
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/GraphCanvas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screenbg"
+        tools:context=".fastpath.PathHelp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin10"
+            android:gravity="center"
+            android:orientation="vertical">
+        <TextView
+                android:id="@+id/pathHelpTitle"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_margin="@dimen/margin10"
+                android:layout_height="wrap_content"
+                android:text="@string/hello_blank_fragment"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/pathInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/bfs"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/pathim1"
+                    android:src="@drawable/path1"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pathInfo"
+                    android:contentDescription="@string/picture" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/pathtv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/path1"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/pathim2"
+                    android:src="@drawable/path2"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pathtv1"
+                    android:contentDescription="@string/picture"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/pathhelp1"
+                    android:layout_below="@id/pathim2"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/pathtv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/path2"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/pathim3"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/path3"
+                    android:layout_below="@id/pathtv2"
+                    android:contentDescription="@string/picture"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/pathhelp2"
+                    android:layout_below="@id/pathim3"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/pathtv3"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:text="@string/path3"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/pathim4"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/path4"
+                    android:layout_below="@id/pathtv3"
+                    android:contentDescription="@string/picture"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text30"
+                    android:layout_margin="@dimen/margin10"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/pathhelp3"
+                    android:layout_below="@id/pathim4"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/border"
+                android:gravity="center">
+
+            <TextView
+                    android:id="@+id/pathtv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/margin10"
+                    android:textSize="@dimen/text30"
+                    android:textColor="@color/white"
+                    android:text="@string/path4"
+                    android:layout_alignParentTop="true"/>
+
+            <ImageView
+                    android:id="@+id/pathim5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:src="@drawable/path5"
+                    android:layout_below="@id/pathtv4"
+                    android:contentDescription="@string/picture"/>
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="@dimen/margin20"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/pathHelpHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home"
+                    android:textSize="@dimen/text30"
+                    android:textColor="@color/bgGradEnd"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                    android:id="@+id/returnToPath"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:textSize="@dimen/text30"
+                    android:textColor="@color/bgGradEnd"
+                    android:layout_height="wrap_content"
+                    android:text="@string/go_to_fastest_path"
+                    style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

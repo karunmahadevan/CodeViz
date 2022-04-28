@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".sort.Sort"
+        android:id="@+id/comp">
+
+    <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textSize="@dimen/text30"
+            android:textColor="@color/bgGradEnd"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"/>
+
+
+    <Button
+            android:id="@+id/testSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textSize="@dimen/text30"
+            android:textColor="@color/bgGradEnd"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="RelativeOverlap" />
+
+    <TextView
+            android:id="@+id/titleTextSort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:id="@+id/sortInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin10"
+            android:textSize="@dimen/text20"
+            android:textColor="@color/white"
+            android:layout_above="@id/sortGraph"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/sortGraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/linearLayout"
+            android:layout_centerInParent="true"
+            />
+
+
+
+        <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/sortSlider">
+
+            <TextView
+                    android:id="@+id/sliderText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/sorting_size"
+                    android:textColor="@color/black"
+                    android:padding="@dimen/margin10"
+                    android:textStyle="bold"
+                    android:background="@drawable/buttonripple"
+                    android:textSize="@dimen/text30" />
+
+            <Spinner
+                    android:id="@+id/sortMethods"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/red" />
+
+            <Button
+                    android:id="@+id/sortChart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@drawable/buttonripple"
+                    android:textStyle="bold"
+                    android:padding="@dimen/margin10"
+                    android:textSize="@dimen/text30"
+                    android:text="@string/sort_chart" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.slider.Slider
+                android:id="@+id/sortSlider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/MyMaterialTheme"
+                android:background="@drawable/border"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true" />
+
+
+
+
+</RelativeLayout>
