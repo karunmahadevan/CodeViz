@@ -234,8 +234,10 @@ class Recursion : Fragment(), View.OnClickListener {
             if (!solveNQRecur(0)) {
                 println("Solution does not exist")
             }
+            sleep(1500)
             withContext(Dispatchers.Main) {
                 slider.isEnabled = true
+                initQueens()
             }
         }
 

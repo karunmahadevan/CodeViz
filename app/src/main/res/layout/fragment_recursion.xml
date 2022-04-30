@@ -39,9 +39,7 @@
             android:id="@+id/recurTable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin20"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/margin20"
             android:layout_above="@+id/recurChoice"
             android:layout_marginBottom="152dp" />
 
